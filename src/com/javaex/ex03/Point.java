@@ -1,4 +1,4 @@
-package com.javaex.ex02;
+package com.javaex.ex03;
 
 public class Point {
 	
@@ -35,4 +35,11 @@ public class Point {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 	
+	public boolean equals(Point p) {
+		if (this.x == p.x && this.y == p.y) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
